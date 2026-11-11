@@ -1070,8 +1070,8 @@ html.js.motore-ko #nomotore{display:block}
     }
     if (id === "ibu") {
       d = doseIbu(p);
-      if (!d.perKg) h += passo(fd("ACC/AHA 2015") + "<b>1 mg</b> in 10 min (da 60 kg in su); se l'aritmia non si interrompe entro 10 min, si può ripetere 1 mg una volta" + pgs(A526) + ". " + stST() + " La stessa dose, e non oltre la seconda (scheda tecnica di ibutilide, 4.2).", true);
-      else h += passo(fd("ACC/AHA 2015") + "<b>" + fn(d.mg) + " mg</b> in 10 min (0,01 mg/kg, sotto i 60 kg)" + pgs(A526) + ". La seconda dose, se dopo 10 min l'aritmia non si è interrotta: la ACC/AHA scrive 1 mg, la scheda tecnica la stessa dose della prima, <b>" + fn(d.mg) + " mg</b> (4.2) — la più prudente è la scheda; mai una terza.", true);
+      if (!d.perKg) h += passo(fd("ACC/AHA 2015") + "<b>1 mg</b> in 10 min (da 60 kg in su); se l'aritmia non si interrompe entro 10 min, si può ripetere 1 mg una volta" + pgs(A526) + ". " + stST() + " «Una seconda dose», senza dire quanta, e nessuna dose ulteriore (scheda tecnica di ibutilide, 4.2).", true);
+      else h += passo(fd("ACC/AHA 2015") + "<b>" + fn(d.mg) + " mg</b> in 10 min (0,01 mg/kg, sotto i 60 kg)" + pgs(A526) + ". La seconda dose, se dopo 10 min l'aritmia non si è interrotta: la ACC/AHA scrive 1 mg, la scheda tecnica «una seconda dose», senza dire quanta (4.2): lo strumento tiene la più bassa, <b>" + fn(d.mg) + " mg</b>; nessuna dose ulteriore (4.2).", true);
       h += passo("La ESC 2019 non dà la dose.");
     }
     if (id === "proc") {
